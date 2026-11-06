@@ -1,0 +1,6 @@
+PASS examples/good.html
+PASS examples/good.md
+FAIL examples/skipped-level.html: line 8: skipped level H1 -> H3
+FAIL examples/two-h1.md: line 5: second H1 (first H1 at line 1)
+FAIL examples/no-h1.html: no H1 heading in file; line 7: first heading is H2, expected H1
+5 file(s) checked, 2 passed, 3 failed
